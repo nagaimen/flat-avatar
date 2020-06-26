@@ -1,5 +1,3 @@
-/*font-family: 'Montserrat', sans-serif;*/
-/*font-family: 'Noto Sans JP', sans-serif;*/
 *{
   box-sizing: border-box;
 }
@@ -11,8 +9,8 @@ h1{
   font-weight: 800;
   font-size: 48px;
   letter-spacing: 10px;
-  color: #888;
-  padding-top: 60px;
+  color: #1C2E28;
+  padding-top: 80px;
 }
 
 header p {
@@ -30,7 +28,20 @@ header p {
 
 .movie{
   text-align: center;
-  padding-top: 60px;
+  padding-top: 80px;
+}
+
+.top p {
+  display: block;
+  text-align: center;
+  font-family: font-family: 'Noto Sans JP', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 5px;
+  color: #888;
+  line-height: 26px;
+  text-decoration: none;
+  padding-top: 80px;
 }
 
 h2 {
@@ -43,7 +54,7 @@ h2 {
   color: #888;
   line-height:30px;
   text-decoration: none;
-  padding-top: 120px;
+  padding-top: 100px;
 }
 
 h3 {
@@ -76,7 +87,7 @@ h3 {
 .contents{
   flex-wrap: wrap;
   text-align: center;
-  padding-top: 120px;
+  padding-top: 80px;
 }
 
 .fa{
@@ -84,29 +95,58 @@ h3 {
   padding: 1px;
 }
 
+.contents-text p {
+  display: block;
+  text-align: center;
+  font-family: font-family: 'Noto Sans JP', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 5px;
+  color: #888;
+  line-height: 26px;
+  text-decoration: none;
+  padding-top: 80px;
+}
+
+.crap {
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.crap-image {
+  width: 560px;
+  padding-top: 80px;
+}
+
+
 
 h7{
   display: block;
   text-align: center;
   font-family: font-family: 'Noto Sans JP', sans-serif;
   font-weight: 400;
-  font-size: 6px;
+  font-size: 5px;
   letter-spacing: 3px;
-  color: #888;
-  line-height: 0px;
+  color: #fff;
   text-decoration: none;
-  padding: 240px 0px 0px 0px;
 }
+
+footer {
+  background-color: #d3d3d3;
+  height: 100px;
+  margin-top: 120px;
+}
+
 footer a{
   display: block;
   text-align: center;
   font-family: font-family: 'Noto Sans JP', sans-serif;
   font-weight: 400;
-  font-size: 6px;
+  font-size: 5px;
   letter-spacing: 3px;
-  color: #888;
+  color: #fff;
   line-height: 24px;
-  padding: 20px 0px 40px 0px;
+  padding: 10px 0px 0px 0px;
 }
 
 /* スマホ向けレイアウト */
@@ -115,4 +155,9 @@ footer a{
     width: 32%;
     padding: 1px;
   }
+  .crap-image {
+      width: 95%;
+  }
+
+
 }
