@@ -6,11 +6,11 @@
 h1{
   display: block;
   text-align: center;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Jost', sans-serif;
   font-weight: 800;
-  font-size: 48px;
+  font-size: 64px;
   letter-spacing: 10px;
-  color: #1C2E28;
+  color: #333;
   padding-top: 80px;
 }
 
@@ -45,23 +45,54 @@ header p {
   padding-top: 80px;
 }
 
+.contents{
+  flex-wrap: wrap;
+  text-align: center;
+  padding-top: 80px;
+}
+
+.fa{
+  width: 19%;
+  padding: 1px;
+}
+
+.contents p {
+  display: block;
+  text-align: center;
+  font-family: font-family: 'Noto Sans JP', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 5px;
+  color: #888;
+  line-height: 27px;
+  text-decoration: none;
+  padding-top: 80px;
+}
+
+.crap-image {
+  width: 640px;
+  padding-top: 80px;
+}
+
+ /*HOW TO*/
 h2 {
   display: block;
   text-align: center;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Jost', sans-serif;
   font-weight: 700;
-  font-size: 24px;
+  font-size: 32px;
   letter-spacing: 10px;
-  color: #888;
+  color: #333;
   line-height:30px;
   text-decoration: none;
   padding-top: 100px;
 }
 
+ /*1 2 3*/
 h3 {
   display: block;
   text-align: center;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Jost', sans-serif;
   font-weight: 400;
   font-size: 24px;
   letter-spacing: 10px;
@@ -84,67 +115,30 @@ h3 {
   padding-top: 0px;
 }
 
-
-.contents{
-  flex-wrap: wrap;
-  text-align: center;
-  padding-top: 80px;
-}
-
-.fa{
-  width: 19%;
-  padding: 1px;
-}
-
-.contents-text p {
-  display: block;
-  text-align: center;
-  font-family: font-family: 'Noto Sans JP', sans-serif;
-  font-weight: 400;
-  font-size: 16px;
-  letter-spacing: 5px;
-  color: #888;
-  line-height: 26px;
-  text-decoration: none;
-  padding-top: 80px;
-}
-
-.crap {
-  flex-wrap: wrap;
-  text-align: center;
-}
-
-.crap-image {
-  width: 560px;
-  padding-top: 80px;
-}
-
-
-
-h7{
-  display: block;
-  text-align: center;
-  font-family: font-family: 'Noto Sans JP', sans-serif;
-  font-weight: 400;
-  font-size: 5px;
-  letter-spacing: 3px;
-  color: #fff;
-  text-decoration: none;
-}
-
 footer {
-  background-color: #d3d3d3;
+  background-color: #666;
   height: 100px;
   margin-top: 120px;
+}
+
+footer h7{
+  display: block;
+  text-align: center;
+  font-family: 'Jost', sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  letter-spacing: 2px;
+  color: #fff;
+  text-decoration: none;
 }
 
 footer a{
   display: block;
   text-align: center;
-  font-family: font-family: 'Noto Sans JP', sans-serif;
+  font-family: 'Jost', sans-serif;
   font-weight: 400;
-  font-size: 5px;
-  letter-spacing: 3px;
+  font-size: 12px;
+  letter-spacing: 2px;
   color: #fff;
   line-height: 24px;
   padding: 10px 0px 0px 0px;
@@ -159,6 +153,4 @@ footer a{
   .crap-image {
       width: 95%;
   }
-
-
 }
